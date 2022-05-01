@@ -23,7 +23,7 @@
 
 ;;; Commentary:
 
-;; This package provides Provide an elisp equivalent of SLIME-COMPLETE-FORM.
+;; This package provides an elisp equivalent of SLIME-COMPLETE-FORM.
 
 ;;; Code:
 
