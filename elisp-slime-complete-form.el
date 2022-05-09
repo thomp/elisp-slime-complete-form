@@ -29,6 +29,7 @@
 
 (defun elisp-slime-complete-form ()
   (interactive)
+  (backward-sexp)
   (let* ((sym (symbol-at-point))
 	 (usage-args (when sym
 		       (elisp-slime-complete-form--usage-for-function sym))))
