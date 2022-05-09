@@ -33,7 +33,7 @@
 	 (usage-args (when sym
 		       (elisp-slime-complete-form--usage-for-function sym))))
     (when usage-args
-      (forward-word)
+      (forward-symbol 1)
       (let ((symbol-end (point)))
 	(insert (subseq usage-args
 			0
